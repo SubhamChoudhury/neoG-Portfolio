@@ -108,7 +108,17 @@ hr {
 .ow {
   background-color: var(--off-white);
 }
+.ol-rev {
+  padding-bottom: 0.7rem;
+}
 
+.ol-rev li {
+  padding-bottom: 2.5rem;
+}
+
+.ol-rev h2 {
+  margin-bottom: 0rem;
+}
 /*footer*/
 .footer {
   background-color: var(--primary-colour);

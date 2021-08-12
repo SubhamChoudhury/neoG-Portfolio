@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap");
 
-:root{
+:root {
   --primary-colour: #2563eb;
 }
 body {
@@ -18,7 +18,7 @@ hr {
 .container-center {
   max-width: 600px;
   margin: auto;
-} 
+}
 /* links */
 
 .link {
@@ -35,4 +35,14 @@ hr {
   color: var(--primary-colour);
   border-radius: 0.5rem;
   border: 1px solid var(--primary-colour);
+}
+/* lists */
+
+.list-non-bullet {
+  list-style: none;
+}
+
+.list-item-inline {
+  display: inline;
+  padding: 0rem 0.5rem;
 }

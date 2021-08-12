@@ -84,6 +84,14 @@ hr {
   padding-top: 1rem;
   color: var(--dark-gray);
   text-align: center;
+  margin-bottom: 0rem;
+}
+.hero-sub-heading {
+  padding: 0rem;
+  margin-top: 0rem;
+  color: var(--dark-gray);
+  font-size: large;
+  text-align: center;
 }
 .hero .hero-heading-inverted {
   color: var(--primary-colour);
@@ -113,7 +121,14 @@ hr {
 .footer .link {
   color: white;
 }
+.footer .footer-header {
+  font-weight: bold;
+  font-size: large;
+}
 
 .footer ul {
   padding-inline-start: 0px;
 } 
+.footer p {
+  font-size: 0.9rem;
+}

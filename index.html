@@ -1,130 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home | Subham Choudhury</title>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subham Choudhury || Portfolio</title>
     <link href="style.css" rel="stylesheet">
-  </head>
-  <body>
-    <h1>Subham's Component Library</h1>
-    <p>
-      I'll be using this Component library for some of my upcoming projects.
-    </p>
-
-    <hr />
-
-    <h2>@Typograghy</h2>
-
-    <h1>This is the biggest Heading</h1>
-    <h2>This is the second biggest</h2>
-    <p>
-      This is normal text. It's free flowing and wraps at the end like a
-      paragraph.
-    </p>
-    <small>This is relatively smaller text</small>
-
-    <hr />
-
-    <h2>@Container</h2>
-
-    <h3>Fluid Container</h3>
-    <div class="container">This is a fluid container and it will go till the end of the page</div>
-
-    <h3>Center Container</h3>
-    <div class="container-center">
-      This is the centered container and it will go till the specified width
-    </div>
-
-    <hr />
-
-    <h2>@Links</h2>
-
-    <a class="link link-primary" href="/">Primary Link</a>
-    <a class="link link-secondary" href="/">Secondary Link</a>
-
-    <hr />
-
-    <h2>@Lists</h2>
-
-    <h3>Unordered list</h3>
-    <ul class="list-non-bullet">
-      <li>Item one</li>
-      <li>Item two</li>
-      <li>Item three</li>
-    </ul>
-
-    <h3>Unordered inline list</h3>
-    <ul class="list-non-bullet" >
-        <li class="list-item-inline">Inline item one</li>
-        <li class="list-item-inline">Inline item two</li>
-        <li class="list-item-inline">Inline item three</li>
-    </ul>
-
-    <h3>Reverse ordered list</h3>
-    <ol reversed>
-      <li>milk</li>
-      <li>eggs</li>
-      <li>bread</li>
-    </ol>
-
-    <hr />
-
-    <h2>@nav</h2>
-
+</head>
+<body>
     <nav class="navigation container">
-      <div class="nav-brand">iAmBrand</div>
-      <ul class="list-non-bullet nav-pills">
-        <li class="list-item-inline">
-          <a class="link link-active" href="/">Home</a>
-        </li>
-        <li class="list-item-inline">
-          <a class="link" href="/">About</a>
-        </li>
-        <li class="list-item-inline">
-          <a class="link" href="/">Products</a>
-        </li>
-      </ul>
+        <div class="nav-brand">
+
+            Subham Choudhury</div></a>
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline">
+                <a class="link link-active" href="/">Home</a>
+            </li>
+
+            <li class="list-item-inline">
+                <a class="link" href="/projects.html">Projects</a>
+            </li>
+
+            <li class="list-item-inline">
+                <a class="link" href="/blogs.html">Blogs</a>
+            </li>
+        </ul>
     </nav>
 
-    <hr />
-
-    <h2>@Header</h2>
-
     <header class="hero">
-      <img class="hero-img" src="images/coding.svg" />
-      <h1 class="hero-heading">Subham Choudhury <span class="hero-heading-inverted">the web developer</span></h1>
+        <img class="hero-img" src="/images/coding.svg">
+        <h1 class="hero-heading">Hello World, I'm <span class="hero-heading-inverted">Subham Choudhury</span></h1>
+        <h2 class="hero-sub-heading">Front-End Web Developer</h2>
     </header>
 
-    <hr />
+    <section class="section ow">
+        <div class="container-center">
+            <h1>Technologies</h1>
+            <p style="text-align: center;">HTML5 | CSS3 | JavaScript | React.js | Bootstrap | C | C++ | Git | GitHub</p>
+        </div>
 
-    <h2>@Section</h2>
-    <section class="section">
-        <div class="container container-center">
-      <h1>White section</h1>
-      <p>This will have white background. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat ea assumenda mollitia maxime praesentium placeat asperiores rem in, earum ut repudiandae, ex numquam optio autem temporibus non voluptatum quidem vitae.</p>
-      </div>
-      </section>
-
-      <section class="section ow">
-        <div class="container container-center">
-      <h1>Off-white section</h1>
-      <p>This will have gray background. Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, veniam. Cumque itaque ea est libero natus rem excepturi quisquam voluptate minus sed! Corrupti repellendus rerum, fuga expedita nostrum asperiores illum aperiam ratione.</p>
-    </div>
     </section>
 
-    <hr />
+    <section id="projects" class="section">
+        <div class="container-center">
+            <h1>Projects</h1>
+            <p style="text-align: center;">I like to showcase my work. Hence, I keep my projects hosted. Do check them out.</p>
+            <a class="link link-primary" href="projects.html">Browse Projects</a>
+        </div>
 
-    <h2>@Footer</h2>
+    </section>
+
+    <section id="blogs" class="section ow">
+        <div class="container-center">
+            <h1>Blogs</h1>
+            <p style="text-align: center;">I like to document my journey. I write technical and non-technical blogs. Feel free to check them out.</p>
+
+            <a class="link link-secondary" href="blogs.html">Read Blogs</a>
+        </div>
+
+    </section>
 
     <footer class="footer">
-        <div class="footer-header">Some small heading inside footer</div>
+        <div class="footer-header">Let's Connect!!</div>
         <ul class="social-links list-non-bullet">
-            <li class="list-item-inline"><a class="link" href="/">SocialOne</a></li>
-            <li class="list-item-inline"><a class="link" href="/">SocialTwo</a></li>
-            <li class="list-item-inline"><a class="link" href="/">SocialThree</a></li>
-      </ul>
+            <li class="list-item-inline"><a class="link" href="https://github.com/SubhamChoudhury">GitHub</a></li>
+            <li class="list-item-inline"><a class="link" href="https://twitter.com/SubhamC_14">Twitter</a></li>
+            <li class="list-item-inline"><a class="link" href="/">LinkedIn</a></li>
+        </ul>
+        <p>Built with ❤ by Subham Choudhury</p>
     </footer>
-  </body>
+
+
+</body>
+</html>
+</body>
 </html>

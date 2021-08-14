@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Read Blogs || Subham Choudhury</title>
+    <link href="/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <nav class="navigation container">
+        <div class="nav-brand">
+
+            Subham Choudhury</div></a>
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline">
+                <a class="link link-active" href="/">Home</a>
+            </li>
+
+            <li class="list-item-inline">
+                <a class="link" href="/projects.html">Projects</a>
+            </li>
+
+            <li class="list-item-inline">
+                <a class="link" href="/blogs.html">Blogs</a>
+            </li>
+        </ul>
+    </nav>
+
+    <header class="hero">
+        <h1 class="hero-heading"><span class="hero-heading-inverted">Cloud Native Chaos Engineering</span> -
+            A Summary</h1>
+        <img class="blog-img-head" src="../images/blog-1/head.jpg">
+
+        <div style="text-align: center;"><small>26 July,2021</small></div>
+    </header>
+
+    <section class="blog">
+
+        <h2>What are Downtimes?</h2>
+        Downtimes are that period during which production is stopped due to some operational setup or while making
+        repairs. In simpler terms, when there is an outage and the system goes down completely.
+        <br>
+        <h3>Issues of Downtimes</h3>
+        <ul>
+            <li>Heavy loss to the companies</li>
+            <li> Loss of reputation</li>
+            <li> Lots of chaos</li>
+        </ul>
+        <h3>Few Instances of Downtime</h3>
+        <ul>
+            <li>A 12-hour downtime cost Apple USD 25 Million in march 2015!</li>
+            <li>In March 2019, a 14-hour outage costed Facebook around USD 90 Million!</li>
+            <li>This is where Chaos Engineering comes into play, to cater to resilience, move to a reliable architecture
+                based on real-world scenarios.</li>
+        </ul>
+        <i>This is where <strong>Chaos Engineering</strong> comes into play, to cater to resilience, move to a reliable
+            architecture based on real-world scenarios.</i>
+        <br />
+
+        <h2>But what is Resilience?</h2>
+        <p>Resilience is the ability of the system to stay afloat whenever there's an outage or a fault in the system.
+
+            <h3>Examples of weaknesses, if resilience would be absent!</h3>
+            <ol>
+                <li>The dependent services may slow down if a pod is evicted from the node.</li>
+                <li>The dependent services may become unhealthy if a node goes into a "not-ready" state or if there is a
+                    memory leak in a container.</li>
+            </ol>
+            So, <strong>Chaos Engineering</strong> caters to many such challenges, a few of which are resilience,
+            reliability, security, etc.
+            <h2>What is Chaos Engineering?</h2>
+            It is the process of testing a system by deliberately injecting an outage possible in the future, in a
+            controlled fashion to identify the weakness/vulnerabilities and the unpredictable behavior of that system
+            and find a cure to them.
+            <br /><br />
+
+            <h2>Steps involved in Chaos Engineering</h2>
+            <img class="blog-img-head" src="../images/blog-1/steps.jpg">
+            <ol>
+                <li> Steady State: Steady-state is the normal state (without any chaos).</li><br/>
+                <li>Hypothesis: Hypothesize the behavior of the system in a non-chaotic and chaotic state.</li><br/>
+                <li>Experiment: Putting the various weaknesses or outages to test the system</li><br/>
+                <li>Adapt: The system starts adapting to the changes and problems are rectified.</li><br/>
+            </ol>
+            <img class="blog-img-head" src="../images/blog-1/steps-end.jpg">
+            <br />
+
+            <br />
+            <i>"The idea of Chaos Engineering is to focus more on the Ops and meanwhile not neglect the Dev."</i><br />
+            <h2>Why Kubernetes for Chaos?</h2>
+            <ol>
+                <li>The de facto standard in the industry</li>
+                <li>Highly scalable and availability of more options</li>
+                <li>High resiliency</li>
+                <li>Cloud-Native</li>
+            </ol>
+            <br />
+            <strong>Cloud-Native</strong> is an approach that utilizes cloud computing to build and run scalable
+            applications in modern, dynamic environments.
+
+            <h3> Principles of Cloud Native Chaos Engineering</h3>
+            <ul>
+                <li> Open Source</li>
+                <li>Community Collaboration</li>
+                <li>Open Observability</li>
+                <li>Facilitates GitOps</li>
+                <li>Open API and lifecycle management</li>
+            </ul>
+            <img class="blog-img-head" src="../images/blog-1/benefits.jpg">
+            <h3> Few issues in the existing Chaos Engineering Tools</h3>
+            <ul>
+                <li>Scope to certain market</li>
+                <li>Language Barrier</li>
+                <li>Flaws in the security</li>
+                <li>No native scheduling</li>
+            </ul>
+            Here comes <strong>Litmus</strong> which tries to mitigate all such problems!
+            <h2>So, Why Litmus?</h2>
+            <img class="blog-img-head" src="../images/blog-1/litmus.jpeg"><br/>
+            <ol>
+           <strong><li>Cross-Cloud:</strong> Have Litmus in one and inject chaos in any other. For instance, running Litmus on AWS and doing chaos on GKE.</li>
+           <strong><li>Cloud-Native: </strong>Target all Cloud Native services that provide a great deal of flexibility for CI/CD and developers</li> 
+           <li>Successfully incorporated all the <strong>principles of CNCE.</strong></li>
+           <strong><li>Mitigates</strong> various issues in the existing Chaos Engineering Tools.</li>
+        </ol>
+            <br />
+            Find more details of the blog on my <a href="https://subhamchoudhury.hashnode.dev/cloud-native-chaos-engineering-a-summary">hashnode profile.</a> <br/><br/>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-header">Let's Connect!!</div>
+        <ul class="social-links list-non-bullet">
+            <li class="list-item-inline"><a class="link" href="https://github.com/SubhamChoudhury">GitHub</a></li>
+            <li class="list-item-inline"><a class="link" href="https://twitter.com/SubhamC_14">Twitter</a></li>
+            <li class="list-item-inline"><a class="link"
+                    href="https://www.linkedin.com/in/subham-choudhury/">LinkedIn</a></li>
+        </ul>
+        <p>Built with ❤ by Subham Choudhury</p>
+    </footer>
+</body>
+
+</html>

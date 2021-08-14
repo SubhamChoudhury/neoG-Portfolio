@@ -143,6 +143,18 @@ hr {
 .footer p {
   font-size: 0.9rem;
 }
+/*blog*/
+.blog{
+  max-width: 70%; 
+  margin: auto; 
+  text-align: justify;
+}
+.blog-img-head {
+  padding-top: 1rem;
+  max-width: 70%;
+  display: block;
+  margin: auto;
+}
 
 /*responsive*/
 @media (max-width: 600px) {

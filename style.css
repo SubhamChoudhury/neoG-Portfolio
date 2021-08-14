@@ -126,6 +126,7 @@ hr {
   padding: 2rem 1rem;
   text-align: center;
   color: white;
+  height: 100px;
 }
 
 .footer .link {
@@ -142,3 +143,62 @@ hr {
 .footer p {
   font-size: 0.9rem;
 }
+
+/*responsive*/
+@media (max-width: 600px) {
+  .container {
+    padding: 1rem;
+  }
+  .container-center {
+    max-width: 100%;
+    margin: auto;
+  }
+  .navigation {
+    padding: 1rem;
+  }
+  .navigation .link {
+    padding: 0.5rem 1rem;
+  }
+  .navigation .nav-pills {
+    margin-right: 40px;
+  }
+  .hero {
+    padding: 1rem;
+  }
+  .hero .hero-img {
+    max-width: 100%;
+    display: block;
+    margin: auto;
+  }
+  .hero-heading{
+    font-size: large;
+  }
+  .hero .hero-heading-inverted{
+    font-size: 1.3rem;
+  }
+  .container-center h1{
+    font-size: 1rem;
+  }
+   .link-primary{
+    display: block;
+    text-align: center;
+    height: 39px;
+    width: fit-content;
+    padding-bottom: 15px;
+    font-size: 15px;
+  }
+
+  .link-secondary{
+    text-align: center;
+    height: 24px;
+    padding-bottom: 19px;
+    display: block;
+    font-size: 15px;
+  }
+  .footer{
+    height: 170px;
+  }
+  
+  }
+
+   

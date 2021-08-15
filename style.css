@@ -186,26 +186,21 @@ hr {
 }
 
 /*responsive*/
-@media (max-width: 600px) {
-  .container {
-    padding: 1rem;
-  }
-
-  .container-center {
-    max-width: 100%;
-    margin: auto;
+@media only screen and (max-width: 520px) {
+  .nav-brand {
+    padding-left: 10px;
   }
 
   .navigation {
-    padding: 1rem;
+    padding: 0.5rem 0rem;
   }
 
   .navigation .link {
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 0.5rem;
   }
 
   .navigation .nav-pills {
-    margin-right: 40px;
+    text-align: left;
   }
 
   .hero {
@@ -232,23 +227,20 @@ hr {
 
   .link-primary {
     display: block;
-    text-align: center;
-    height: 39px;
     width: fit-content;
-    padding-bottom: 15px;
+    padding-bottom: 10px;
     font-size: 15px;
   }
 
   .link-secondary {
-    text-align: center;
-    height: 24px;
-    padding-bottom: 19px;
+    width: fit-content;
+    padding-bottom: 10px;
     display: block;
     font-size: 15px;
   }
 
   .footer {
-    height: 170px;
+    height: 150px;
   }
 
 }
